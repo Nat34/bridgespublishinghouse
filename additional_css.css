@@ -35,7 +35,7 @@ h2.title a {
 	height: 108px;
 	left: 109px;
 	top: 212px;
-	font-family: MONOSPACE;
+	font-family: 'Roboto-Bold', sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 24px;
@@ -57,15 +57,15 @@ h2.title a {
 	transform: rotate(90deg);
 }
 
-r span.first-word,
+span.first-word,
 span.second-word {
 	display: block;
 }
 
 .page-services h2 {
 	color: #b99617;
-	font-family: monospace;
-	font-style: normal;
+	font-family: 'Roboto-Bold', sans-serif;
+	font-style: bold;
 	font-weight: 800;
 	font-size: 24px;
 	line-height: 126.7%;
@@ -84,6 +84,19 @@ span.second-word {
 	text-transform: uppercase;
 	color: #222223 !important;
 }
+
+section#services {
+	padding: 80px 100px;
+}
+
+
+/*
+ *
+
+.slides li {
+	max-height: 611px;
+}
+ */
 
 .publishing {
 	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/publishing-1.png) no-repeat top;
@@ -109,3 +122,80 @@ span.second-word {
 	height: 100px;
 }
 
+.container,
+#page {
+	max-width: 1770px;
+}
+
+.header #logo {
+	padding-top: 30px;
+}
+
+#ribbon .container {
+	max-width: 1074px;
+}
+
+section#ribbon {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 504px;
+}
+
+.ribbon-content {
+	max-width: 630px;
+}
+
+#ribbon .header-button.left-button {
+	color: #fff;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	font-family: 'Roboto-Bold', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	padding: 20px 45px;
+}
+
+#ribbon h3.main-heading {
+	color: #222223;
+	font-family: 'Roboto-Bold', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 126.7%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #222223;
+}
+
+section#contact {
+	padding: 120px 0px;
+}
+
+.page-contact h2 {
+	font-family: 'Roboto-Bold', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 126.7%;
+	/* identical to box height, or 23px */
+	text-align: center;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+	color: #D0AA1F;
+}
+
+.social-ft {
+	width: 100%;
+	text-align: center;
+}
+
+.social-ft ul li a {
+	padding: 21px;
+	font-size: 40px;
+}
