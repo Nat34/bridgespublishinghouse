@@ -1,0 +1,111 @@
+
+
+h2.title {
+	text-align: left;
+	max-width: 447px;
+}
+
+h2.title a {
+	position: absolute;
+	width: 554px;
+	height: 324px;
+	left: 324px;
+	top: 210px;
+	font-family: Playfair Display SC;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 134.7%;
+	text-align: left;
+	/* or 81px */
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.75);
+}
+
+.flex-direction-nav .flex-prev,
+.flex-direction-nav .flex-next {
+	display: none;
+}
+
+.caption-container .company {
+	position: absolute;
+	width: 151px;
+	height: 108px;
+	left: 109px;
+	top: 212px;
+	font-family: MONOSPACE;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 150%;
+	/* or 36px */
+	text-align: right;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.85);
+}
+
+.caption-container .line {
+	position: absolute;
+	width: 310px;
+	height: 0px;
+	left: 137px;
+	top: 374px;
+	border: 2px solid #D0AA1F;
+	transform: rotate(90deg);
+}
+
+r span.first-word,
+span.second-word {
+	display: block;
+}
+
+.page-services h2 {
+	color: #b99617;
+	font-family: monospace;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 126.7%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#services>div>div>p {
+	font-family: Playfair Display SC !important;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px !important;
+	line-height: 126.7% !important;
+	text-align: center !important;
+	letter-spacing: 0.04em !important;
+	text-transform: uppercase;
+	color: #222223 !important;
+}
+
+.publishing {
+	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/publishing-1.png) no-repeat top;
+	width: 100px;
+	height: 100px;
+}
+
+.editorial {
+	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/editorial-3.png) no-repeat top;
+	width: 100px;
+	height: 100px;
+}
+
+.marketing {
+	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/marketing.png) no-repeat top;
+	width: 100px;
+	height: 100px;
+}
+
+.consultation {
+	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/legal.png) no-repeat top;
+	width: 100px;
+	height: 100px;
+}
+
