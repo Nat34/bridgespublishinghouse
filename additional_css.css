@@ -1,8 +1,8 @@
 
 
 h2.title {
-	text-align: left;
 	max-width: 447px;
+	text-align: left;
 }
 
 h2.title a {
@@ -128,7 +128,8 @@ section#services {
 }
 
 .header #logo {
-	padding-top: 30px;
+	padding-top: 19px;
+	padding-left: 32px;
 }
 
 #ribbon .container {
@@ -146,9 +147,9 @@ section#ribbon {
 }
 
 #ribbon .header-button.left-button {
-	color: #fff;
 	margin-top: 60px;
 	margin-bottom: 30px;
+	color: #fff;
 	font-family: 'Roboto-Bold', sans-serif;
 	font-style: normal;
 	font-weight: 900;
@@ -170,7 +171,6 @@ section#ribbon {
 	line-height: 126.7%;
 	text-align: center;
 	text-transform: uppercase;
-	color: #222223;
 }
 
 section#contact {
@@ -178,6 +178,7 @@ section#contact {
 }
 
 .page-contact h2 {
+	color: #D0AA1F;
 	font-family: 'Roboto-Bold', sans-serif;
 	font-style: normal;
 	font-weight: bold;
@@ -187,7 +188,6 @@ section#contact {
 	text-align: center;
 	letter-spacing: 0.07em;
 	text-transform: uppercase;
-	color: #D0AA1F;
 }
 
 .social-ft {
@@ -198,4 +198,9 @@ section#contact {
 .social-ft ul li a {
 	padding: 21px;
 	font-size: 40px;
+}
+
+#ribbon .header-button.left-button:hover{
+	color: #fff;
+	border-color: #fff;
 }
