@@ -201,6 +201,6 @@ section#contact {
 }
 
 #ribbon .header-button.left-button:hover{
-	color: #fff;
-	border-color: #fff;
+	background-color: #D0AA1F;
+	border-color: #D0AA1F;
 }
