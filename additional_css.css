@@ -3,8 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 .header #logo {
-	padding-top: 19px;
-	padding-left: 32px;
+	padding-top: 30px;
 }
 
 #menu li a {
@@ -16,6 +15,15 @@
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
 	color: #FFFFFF;
+}
+
+.home .navigation>ul>li>a::before,
+.home .navigation ul li a.active::before,
+.navigation>ul>li>a::before,
+.navigation ul li a.active::before,
+.navigation li.current_page_item>a::before {
+	background: #D0AA1F;
+	background-color: #D0AA1F;
 }
 
 h2.title {
@@ -107,14 +115,9 @@ section#services {
 	padding: 80px 100px;
 }
 
-
-/*
- *
-
 .slides li {
 	max-height: 611px;
 }
- */
 
 .publishing {
 	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/publishing-1.png) no-repeat top;
@@ -221,6 +224,16 @@ section#contact {
 .foot-text {
 	padding-top: 30px;
 	padding-bottom: 30px;
+	font-family: Noto Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 126.7%;
+	/* identical to box height, or 23px */
+	text-align: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #D0AA1F;
 }
 
 .foot-copyright .footer-content. .social-ft {
@@ -259,3 +272,4 @@ section#contact {
 	background-color: #D0AA1F;
 	border-color: #D0AA1F;
 }
+
