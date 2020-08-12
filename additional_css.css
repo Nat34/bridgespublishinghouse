@@ -1,5 +1,23 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.header #logo {
+	padding-top: 19px;
+	padding-left: 32px;
+}
+
+#menu li a {
+	font-family: 'Noto Sans', sans- serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
 h2.title {
 	max-width: 447px;
 	text-align: left;
@@ -11,7 +29,7 @@ h2.title a {
 	height: 324px;
 	left: 324px;
 	top: 210px;
-	font-family: Playfair Display SC;
+	font-family: 'Playfair Display', serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 64px;
@@ -35,7 +53,7 @@ h2.title a {
 	height: 108px;
 	left: 109px;
 	top: 212px;
-	font-family: 'Roboto-Bold', sans-serif;
+	font-family: 'Noto Sans', sans- serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 24px;
@@ -64,7 +82,7 @@ span.second-word {
 
 .page-services h2 {
 	color: #b99617;
-	font-family: 'Roboto-Bold', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 	font-style: bold;
 	font-weight: 800;
 	font-size: 24px;
@@ -125,11 +143,6 @@ section#services {
 .container,
 #page {
 	max-width: 1770px;
-}
-
-.header #logo {
-	padding-top: 19px;
-	padding-left: 32px;
 }
 
 #ribbon .container {
@@ -200,7 +213,49 @@ section#contact {
 	font-size: 40px;
 }
 
-#ribbon .header-button.left-button:hover{
+#ribbon .header-button.left-button:hover {
+	color: #fff;
+	border-color: #fff;
+}
+
+.foot-text {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.foot-copyright .footer-content. .social-ft {
+	float: none;
+	width: 100%;
+	padding: 0;
+}
+
+.divider {
+	border: 2px solid #D0AA1F;
+	transform: rotate(180deg);
+	max-width: 130px;
+	margin: 20px auto;
+}
+
+.foot-copyright span.text-footer {
+	font-family: 'Roboto-Bold', sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	float: none;
+	text-align: center;
+	display: block;
+	margin-right: 0;
+}
+
+#slider-div li {
+	background-size: 120% !important;
+}
+
+#ribbon .header-button.left-button:hover {
 	background-color: #D0AA1F;
 	border-color: #D0AA1F;
 }
