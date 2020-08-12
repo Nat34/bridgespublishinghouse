@@ -1,27 +1,23 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 .header #logo {
 	padding-top: 30px;
 }
 
 #menu li a {
-	font-family: 'Noto Sans', sans- serif;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 12px;
-	line-height: 16px;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
-	color: #FFFFFF;
+	font-family: 'Noto Sans', sans-	serif;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FFFFFF;
 }
 
-.home .navigation>ul>li>a::before,
-.home .navigation ul li a.active::before,
-.navigation>ul>li>a::before,
-.navigation ul li a.active::before,
-.navigation li.current_page_item>a::before {
+.home .navigation > ul > li > a::before, .home .navigation ul li a.active::before, .navigation > ul > li > a::before, .navigation ul li a.active::before, .navigation li.current_page_item > a::before {
 	background: #D0AA1F;
 	background-color: #D0AA1F;
 }
@@ -37,7 +33,7 @@ h2.title a {
 	height: 324px;
 	left: 324px;
 	top: 210px;
-	font-family: 'Playfair Display', serif;
+font-family: 'Playfair Display', serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 64px;
@@ -55,13 +51,17 @@ h2.title a {
 	display: none;
 }
 
+.caption-container {
+	opacity: 1!important;
+}
+
 .caption-container .company {
 	position: absolute;
 	width: 151px;
 	height: 108px;
 	left: 109px;
 	top: 212px;
-	font-family: 'Noto Sans', sans- serif;
+	font-family: 'Noto Sans', sans-	serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 24px;
@@ -90,7 +90,7 @@ span.second-word {
 
 .page-services h2 {
 	color: #b99617;
-	font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Sans', sans-serif;
 	font-style: bold;
 	font-weight: 800;
 	font-size: 24px;
@@ -115,6 +115,7 @@ section#services {
 	padding: 80px 100px;
 }
 
+
 .slides li {
 	max-height: 611px;
 }
@@ -137,8 +138,248 @@ section#services {
 	height: 100px;
 }
 
-.consultation {
-	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/legal.png) no-repeat top;
+
+
+/*------start featured-in section style--------*/
+
+#featured-in {
+	display: block;
+	overflow: hidden;
+	background-color: #fff;
+	padding: 80px 200px;
+}
+
+.page-featured-in {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.page-featured-in h2 {
+		color: #b99617;
+font-family: 'Noto Sans', sans-serif;
+	font-style: bold;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 126.7%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.featured-in-block {
+	display: block;
+	float: left;
+	width: 100%;
+	padding-top: 60px;
+}
+
+.featured-in-block ul li,
+.featured-in-block ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.featured-in-grid li.featured-in-list {
+	width: 13.5%;
+	float: left;
+	position: relative;
+}
+
+ul.featured-in-grid li.featured-in-list:nth-of-type(6n+1) {
+	clear: left;
+}
+
+.featured-in-grid .featured-in-list {
+	margin-right: 2%;
+}
+
+.featured-in-title {
+	text-align: center;
+}
+
+.featured-in-title a {
+	text-align: center;
+	text-decoration: none;
+}
+
+.featured-in-list .newsweek {
+	margin-top: 40px;
+}
+
+li.featured-in-list:nth-child(13) {
+	clear: none;
+}
+
+.featured-in-icon i {
+	font-size: 50px;
+	display: inline-block;
+	line-height: 100px;
+	text-align: center;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.featured-in-icon1 {
+	position: relative;
+}
+
+.featured-in-icon1 a:before {
+	content: "\f0eb";
+	font-family: FontAwesome;
+	color: #D4B068;
+	font-size: 50px;
+	display: inline-block;
+	line-height: 100px;
+	text-align: center;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.featured-in-icon1 a:hover:before,
+.featured-in-icon2 a:hover:before,
+.featured-in-icon3 a:hover:before,
+.featured-in-icon3 a:hover:before,
+.featured-in-icon4 a:hover:before {
+	color: #D4B068;
+}
+
+.featured-in-icon2 a:before {
+	content: "\f130";
+	font-family: FontAwesome;
+	color: #D4B068;
+	font-size: 50px;
+	display: inline-block;
+	line-height: 100px;
+	text-align: center;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.featured-in-icon3 a:before {
+	content: "\f085";
+	font-family: FontAwesome;
+	color: #D4B068;
+	font-size: 50px;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.featured-in-icon4 a:before {
+	content: "\f087";
+	font-family: FontAwesome;
+	color: #D4B068;
+	font-size: 50px;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+
+/*------end featured-in section style--------*/
+
+
+
+.featured-in-list > div {
+	background-size: 100px;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+}
+
+.abc {
+		background: url(https://upload.wikimedia.org/wikipedia/commons/5/54/American_Broadcasting_Company_Logo.svg) no-repeat top;
+
+}
+
+.cbs {
+		background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/CBS_classic_logo.svg/200px-CBS_classic_logo.svg.png) no-repeat top;
+}
+
+.cnbc {
+		background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/CNBC_logo.svg/200px-CNBC_logo.svg.png) no-repeat top;
+}
+
+.forbes {
+			background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Forbes_logo.svg/200px-Forbes_logo.svg.png) no-repeat top;
+}
+
+.fox {
+				background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Fox_Broadcasting_Company_logo_%282019%29.svg/200px-Fox_Broadcasting_Company_logo_%282019%29.svg.png) no-repeat top;
+	
+}
+
+.huffington-post {
+				background: url(https://upload.wikimedia.org/wikipedia/commons/6/6a/Huffington_Post_Logo.png) no-repeat top;
+	
+}
+
+.newsweek {
+				background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Newsweek_Logo.svg/200px-Newsweek_Logo.svg.png) no-repeat top;
+	
+}
+
+.readers-digest {
+				background: url(https://upload.wikimedia.org/wikipedia/commons/a/af/Readers_Digest_Logo.png) no-repeat top;
+	
+}
+
+.realtor-dot-com {
+				background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Realtor.com_logo.png/800px-Realtor.com_logo.png) no-repeat top;
+	
+}
+
+.time {
+				background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Time_Magazine_logo.svg/200px-Time_Magazine_logo.svg.png) no-repeat top;
+	
+}
+
+.usa-today {
+					background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/USA_Today_%282020-01-29%29.svg/200px-USA_Today_%282020-01-29%29.svg.png) no-repeat top;
+
+	
+}
+
+.us-news-world-report {
+					background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/U.S._News__World_Report_logo.png) no-repeat top;
+}
+
+.wall-street-journal {
+						background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/WSJ_Logo.svg/200px-WSJ_Logo.svg.png) no-repeat top;
+}
+
+.womans-day-journal {
+						background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/womans-day-logo.png) no-repeat top;
+	
+}
+
+.fas.fa-tasks::before{
+	color: black !important;
+	font-size: 1.5em;
 	width: 100px;
 	height: 100px;
 }
@@ -155,7 +396,7 @@ section#services {
 section#ribbon {
 	padding-top: 0px;
 	padding-bottom: 0px;
-	height: 504px;
+	height: 804px;
 }
 
 .ribbon-content {
@@ -216,7 +457,7 @@ section#contact {
 	font-size: 40px;
 }
 
-#ribbon .header-button.left-button:hover {
+#ribbon .header-button.left-button:hover{
 	color: #fff;
 	border-color: #fff;
 }
@@ -225,15 +466,17 @@ section#contact {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-family: Noto Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 126.7%;
-	/* identical to box height, or 23px */
-	text-align: center;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
-	color: #D0AA1F;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 126.7%;
+
+/* identical to box height, or 23px */
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #D0AA1F;
 }
 
 .foot-copyright .footer-content. .social-ft {
@@ -244,23 +487,23 @@ section#contact {
 
 .divider {
 	border: 2px solid #D0AA1F;
-	transform: rotate(180deg);
-	max-width: 130px;
+transform: rotate(180deg);
+		max-width: 130px;
 	margin: 20px auto;
 }
 
 .foot-copyright span.text-footer {
-	font-family: 'Roboto-Bold', sans-serif;
-	font-style: normal;
-	font-weight: 900;
-	font-size: 12px;
-	line-height: 16px;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
-	color: #FFFFFF;
-	float: none;
-	text-align: center;
-	display: block;
+font-family: 'Roboto-Bold', sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FFFFFF;
+float: none;
+text-align: center;
+display: block;
 	margin-right: 0;
 }
 
@@ -268,8 +511,7 @@ section#contact {
 	background-size: 120% !important;
 }
 
-#ribbon .header-button.left-button:hover {
+#ribbon .header-button.left-button:hover{
 	background-color: #D0AA1F;
 	border-color: #D0AA1F;
 }
-
