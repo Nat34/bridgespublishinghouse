@@ -122,19 +122,33 @@ section#services {
 }
 
 .publishing {
-	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/publishing-1.png) no-repeat top;
+	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/publishing-1.png), url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/circle.png);
+	background-position: top left, bottom right;
+	background-repeat: no-repeat, no-repeat;
 	width: 100px;
 	height: 100px;
 }
 
 .editorial {
-	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/editorial-3.png) no-repeat top;
+	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/editorial-3.png), url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/circle.png);
+	background-position:  0px 1px, bottom right;
+	background-repeat: no-repeat, no-repeat;
 	width: 100px;
 	height: 100px;
 }
 
 .marketing {
-	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/marketing.png) no-repeat top;
+	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/marketing.png),url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/circle.png) ;
+	background-position: top left, bottom right;
+	background-repeat: no-repeat, no-repeat;
+	width: 100px;
+	height: 100px;
+}
+
+.other {
+	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/Group.png), url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/circle.png);
+	background-position: top left, bottom right;
+	background-repeat: no-repeat, no-repeat;
 	width: 100px;
 	height: 100px;
 }
