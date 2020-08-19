@@ -683,3 +683,34 @@ display: block;
 	background-color: #D0AA1F;
 	border-color: #D0AA1F;
 }
+
+
+@media screen and (max-width: 1230px){
+	.caption-container .company {
+		left: 109px;
+	}
+	.caption-container .line {
+		left: 137px;
+	}
+	h2.title a {
+		left: 324px;
+	}
+}
+
+@media screen and (max-width:1024px) { 
+}
+
+@media screen and (max-width:1000px) { 
+}
+
+
+@media screen and (max-width:860px) { 
+}
+
+
+@media screen and (max-width:780px) { 
+}
+
+
+@media screen and (max-width:480px) { 
+}
