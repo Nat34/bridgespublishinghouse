@@ -121,6 +121,123 @@ section#services {
 	max-height: 611px;
 }
 
+section#testimonials {
+	padding: 60px 0;
+}
+
+.testimonials-header {
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 126.7%;
+	text-align: center;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: #222223;
+	background: #fff;
+}
+
+.testimonials-box {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.testimonials-div {
+    max-width: 800px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.bx-wrapper {
+    position: relative;
+    margin: 0 auto 102px;
+    padding: 0;
+    *zoom: 1;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+}
+
+.bx-viewport {
+
+    -webkit-transform: translatez(0);
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 650px !important;
+}
+
+.test-quote {
+	width: 59%;
+	margin: auto;
+	text-align: left;
+}
+
+section#testimonials ul {
+    width: auto;
+    position: relative;
+    visibility: visible;
+    animation-delay: 0.5s;
+}
+
+
+section#testimonials li {
+    float: none;
+    list-style: outside none none;
+    position: absolute;
+    width: 800px;
+    z-index: 50;
+    display: block;
+    top: 59px;
+}
+
+.test-cont {
+    width: 59%;
+    margin: auto;
+    text-align: left;
+}
+
+.test-cont p {
+    margin: 15px 0px 15px 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #222223;
+}
+
+.test-cont-heading {
+    width: 59%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.test-cont-heading h2 {
+
+    text-align: left;
+    font-family: Playfair Display SC;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 36px;
+    color: #222223;
+	
+    margin: 8px 0 8px 0;
+    letter-spacing: 2px;
+}
+
+.image-test {
+    text-align: left;
+    width: 59%;
+    margin: auto;
+}
+
+.image-test img {
+    width: 80px;
+    height: 80px;
+    border: none;
+
+}
+
 .publishing {
 	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/publishing-1.png), url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/circle.png);
 	background-position: top left, bottom right;
@@ -460,6 +577,42 @@ section#contact {
 	text-align: center;
 	letter-spacing: 0.07em;
 	text-transform: uppercase;
+}
+
+/*-----------featured in section ------*/
+.footer-wrapper, .footer{
+	background-color: #ffffff;
+}
+
+.footer-wrapper p{
+	display: block;
+	color: #b99617;
+	font-family: 'Noto Sans', sans-serif;
+	font-style: bold;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 126.7%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.footer-widget-column .widget:nth-child(odd){
+	display:none;
+}
+.footer-widget-column .widget:nth-child(even){
+	width: 100% !important;
+	
+}
+
+#gallery-1{
+	display: block;
+	width: 100% ;
+}
+
+.gallery-item{
+	margin: 5px;
+	height: 200px;
+	width: 200px;
 }
 
 .social-ft {
