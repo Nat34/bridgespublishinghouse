@@ -600,19 +600,23 @@ section#contact {
 	display:none;
 }
 .footer-widget-column .widget:nth-child(even){
-	width: 100% !important;
+	width: 100% !important;	
 	
 }
 
 #gallery-1{
 	display: block;
 	width: 100% ;
+	margin-left: 550px;
 }
 
-.gallery-item{
+#gallery-1 :nth-child(8){
+	margin-left: 50px;
+}
+
+.gallery-item img{
 	margin: 5px;
-	height: 200px;
-	width: 200px;
+	
 }
 
 .social-ft {
