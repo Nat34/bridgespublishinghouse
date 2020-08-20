@@ -579,7 +579,7 @@ section#contact {
 	text-transform: uppercase;
 }
 
-/*-----------featured in section ------*/
+/*----------- updated featured in section ------*/
 .footer-wrapper, .footer{
 	background-color: #ffffff;
 }
@@ -607,17 +607,18 @@ section#contact {
 #gallery-1{
 	display: block;
 	width: 100% ;
-	margin-left: 550px;
+	margin-left: 370px;
 }
 
 #gallery-1 :nth-child(8){
-	margin-left: 50px;
+	margin-left: 80px;
 }
 
 .gallery-item img{
 	margin: 5px;
-	
+	filter: grayscale(95%);
 }
+
 
 .social-ft {
 	width: 100%;
