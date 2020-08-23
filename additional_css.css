@@ -610,16 +610,25 @@ section#contact {
 	margin-left: 370px;
 }
 
-#gallery-1 :nth-child(8){
-	margin-left: 80px;
-}
+
 
 .gallery-item img{
 	margin: 5px;
-	filter: grayscale(95%);
+	filter: grayscale(105%);
+	opacity: 0.5;
 }
 
+#gallery-1 :nth-child(2) img{
+	height: 80px;
+	width: 80px;
+	margin-top: 20px;
+}
 
+#gallery-1 :nth-child(3) img{
+	height: 50px;
+	width: 50px;
+	margin-top: 30px;
+}
 .social-ft {
 	width: 100%;
 	text-align: center;
