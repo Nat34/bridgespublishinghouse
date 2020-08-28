@@ -607,28 +607,25 @@ section#contact {
 #gallery-1{
 	display: block;
 	width: 100% ;
-	margin-left: 370px;
+	margin-left: 328px;
 }
 
 
 
 .gallery-item img{
 	margin: 5px;
-	filter: grayscale(105%);
-	opacity: 0.5;
+	padding: 20px;
 }
 
-#gallery-1 :nth-child(2) img{
-	height: 80px;
-	width: 80px;
+#gallery-1 :not(:first-child) img{
 	margin-top: 20px;
 }
-
-#gallery-1 :nth-child(3) img{
-	height: 50px;
-	width: 50px;
-	margin-top: 30px;
+#gallery-1 :nth-child(5) img{
+	margin-top: 25px;
 }
+
+
+
 .social-ft {
 	width: 100%;
 	text-align: center;
