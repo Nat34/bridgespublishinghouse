@@ -125,6 +125,10 @@ section#testimonials {
 	padding: 60px 0;
 }
 
+ul.service-grid li.service-list {
+	width: 30.3%;
+}
+
 .testimonials-header {
 	font-family: Playfair Display;
 	font-style: normal;
@@ -239,27 +243,27 @@ section#testimonials li {
 }
 
 .publishing {
-	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/publishing-1.png), url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/circle.png);
+	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/ic-publishing.png);
 	background-position: top left, bottom right;
 	background-repeat: no-repeat, no-repeat;
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 }
 
 .editorial {
-	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/editorial-3.png), url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/circle.png);
+	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/ic-authorcoaching.png);
 	background-position:  0px 1px, bottom right;
 	background-repeat: no-repeat, no-repeat;
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 }
 
 .marketing {
-	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/marketing.png),url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/circle.png) ;
+	background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/ic-publicity.png) ;
 	background-position: top left, bottom right;
 	background-repeat: no-repeat, no-repeat;
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 }
 
 .other {
