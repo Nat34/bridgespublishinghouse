@@ -153,11 +153,15 @@ section#services {
 section#ribbon {
     padding-top: 0px;
     padding-bottom: 0px;
-    height: 700px;
+    height: 836px;
 }
 
 .ribbon-content {
     max-width: 630px;
+}
+
+.service-block {
+    padding: 80px 0px 40px 0px;
 }
 
 #ribbon .header-button.left-button {
@@ -181,15 +185,8 @@ section#ribbon {
     border-color: #fff;
 }
 
-#ribbon h3.main-heading {
-    color: #222223;
-    font-family: 'Roboto-Bold', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 126.7%;
-    text-align: center;
-    text-transform: uppercase;
+.service-icon {
+    margin-bottom: 10px;
 }
 
 .publishing {
@@ -216,12 +213,25 @@ section#ribbon {
     height: 150px;
 }
 
-.other {
-    background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/Group.png), url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/circle.png);
-    background-position: top left, bottom right;
-    background-repeat: no-repeat, no-repeat;
-    width: 100px;
-    height: 100px;
+.service-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#ribbon .other-services {
+    font-family: Noto Sans;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #222223;
+}
+
+.ribbon-button {
+    padding: 0;
 }
 
 #ribbon .header-button.left-button:hover {
@@ -232,6 +242,12 @@ section#ribbon {
 
 /*****TESTIMONIALS*******/
 
+.testimonials-wrapper,
+.testimonials-wrapper .container,
+#testimonials::before {
+    background-color: #FAFAFA;
+}
+
 section#testimonials {
     padding: 60px 0;
 }
@@ -241,16 +257,17 @@ ul.service-grid li.service-list {
 }
 
 .testimonials-header {
-    font-family: Playfair Display;
+    font-family: Noto Sans;
     font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
+    font-weight: 600;
+    font-size: 28px;
     line-height: 126.7%;
+    /* or 35px */
     text-align: center;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #222223;
-    background: #fff;
+    background: #FAFAFA;
 }
 
 .testimonials-box {
@@ -302,12 +319,19 @@ section#testimonials li {
     width: 800px;
     z-index: 50;
     display: block;
-    top: 59px;
+    top: 75px;
+    background: url(http://bridgespublishinghouse.com/wp-content/uploads/2020/08/quote.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    width: 150px;
+    height: 75px;
 }
 
 .test-cont {
-    width: 59%;
-    margin: auto;
+    position: absolute;
+    width: 500px;
+    left: 250px;
+    top: 37px;
     text-align: left;
 }
 
@@ -318,10 +342,25 @@ section#testimonials li {
     color: #222223;
 }
 
+.image-test {
+    position: absolute;
+    width: 384px;
+    height: 256px;
+    top: 27px;
+}
+
+.image-test img {
+    width: 80px;
+    height: 80px;
+    border: none;
+}
+
 .test-cont-heading {
-    width: 59%;
-    margin: auto;
-    margin-bottom: 15px;
+    position: absolute;
+    width: 484px;
+    height: 93px;
+    left: 250px;
+    top: 0px;
 }
 
 .test-cont-heading h2 {
@@ -334,18 +373,6 @@ section#testimonials li {
     color: #222223;
     margin: 8px 0 8px 0;
     letter-spacing: 2px;
-}
-
-.image-test {
-    text-align: left;
-    width: 59%;
-    margin: auto;
-}
-
-.image-test img {
-    width: 80px;
-    height: 80px;
-    border: none;
 }
 
 
@@ -431,7 +458,7 @@ section#testimonials li {
 }
 
 .foot-copyright .footer-content {
-		background-color: #1E1917;
+    background-color: #1E1917;
     padding: 20px 0;
 }
 
@@ -451,7 +478,7 @@ section#testimonials li {
 }
 
 #scroll {
-	bottom: 9px;
+    bottom: 9px;
 }
 
 @media screen and (max-width: 1230px) {
