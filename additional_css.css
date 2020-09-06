@@ -399,56 +399,59 @@ section#testimonials li {
 /*****FOOTER*******/
 
 .foot-text {
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 30px;
     font-family: Noto Sans;
     font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 16px;
     line-height: 126.7%;
     /* identical to box height, or 23px */
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: #D0AA1F;
+    color: #FFFFFF;
 }
 
 .social-ft {
     width: 100%;
     text-align: center;
+    margin-bottom: 80px;
+    margin-top: 0px
 }
 
 .social-ft ul li a {
     padding: 21px;
-    font-size: 40px;
-}
-
-.foot-copyright .footer-content .social-ft {
-    float: none;
-    width: 100%;
-    padding: 0;
+    font-size: 30px;
+    color: #D0AA1F;
 }
 
 .divider {
-    border: 2px solid #D0AA1F;
-    transform: rotate(180deg);
-    max-width: 130px;
-    margin: 20px auto;
+    display: none;
+}
+
+.foot-copyright .footer-content {
+		background-color: #1E1917;
+    padding: 20px 0;
 }
 
 .foot-copyright span.text-footer {
-    font-family: 'Roboto-Bold', sans-serif;
+    float: none;
+    text-align: center;
+    display: block;
+    margin-right: 0;
+    font-family: Noto Sans;
     font-style: normal;
     font-weight: 900;
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    float: none;
-    text-align: center;
-    display: block;
-    margin-right: 0;
+    color: #E5E5E5;
+}
+
+#scroll {
+	bottom: 9px;
 }
 
 @media screen and (max-width: 1230px) {
