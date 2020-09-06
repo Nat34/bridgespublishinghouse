@@ -180,6 +180,10 @@ section#ribbon {
     padding: 20px 45px;
 }
 
+ul.service-grid li.service-list {
+    width: 30.3%;
+}
+
 #ribbon .header-button.left-button:hover {
     color: #fff;
     border-color: #fff;
@@ -248,13 +252,9 @@ section#ribbon {
     background-color: #FAFAFA;
 }
 
-section#testimonials {
+/* section#testimonials {
     padding: 60px 0;
-}
-
-ul.service-grid li.service-list {
-    width: 30.3%;
-}
+} */
 
 .testimonials-header {
     font-family: Noto Sans;
@@ -270,40 +270,34 @@ ul.service-grid li.service-list {
     background: #FAFAFA;
 }
 
-.testimonials-box {
+/* .testimonials-box {
     width: 100%;
     overflow: hidden;
     text-align: center;
-}
+} */
 
-.testimonials-div {
+/* .testimonials-div {
     max-width: 800px;
     margin: 0 auto;
     height: auto;
-}
+} */
 
-.bx-wrapper {
+/* .bx-wrapper {
     position: relative;
     margin: 0 auto 102px;
     padding: 0;
     *zoom: 1;
     -ms-touch-action: pan-y;
     touch-action: pan-y;
-}
+} */
 
-.bx-viewport {
+/* .bx-viewport {
     -webkit-transform: translatez(0);
     width: 100%;
     overflow: hidden;
     position: relative;
     height: 650px !important;
-}
-
-.test-quote {
-    width: 59%;
-    margin: auto;
-    text-align: left;
-}
+} */
 
 section#testimonials ul {
     width: auto;
@@ -325,6 +319,12 @@ section#testimonials li {
     background-repeat: no-repeat, no-repeat;
     width: 150px;
     height: 75px;
+}
+
+.test-quote {
+    width: 59%;
+    margin: auto;
+    text-align: left;
 }
 
 .test-cont {
