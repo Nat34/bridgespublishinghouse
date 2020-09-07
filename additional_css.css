@@ -291,13 +291,13 @@ ul.service-grid li.service-list {
     touch-action: pan-y;
 } */
 
-/* .bx-viewport {
+.bx-viewport {
     -webkit-transform: translatez(0);
     width: 100%;
     overflow: hidden;
     position: relative;
-    height: 650px !important;
-} */
+    height: 450px !important;
+}
 
 section#testimonials ul {
     width: auto;
