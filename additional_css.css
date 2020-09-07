@@ -120,10 +120,9 @@ section#services {
     padding: 80px 100px;
 }
 
-.page-services h2 {
+#services .page-services h2.main-heading {
     color: #b99617;
     font-family: 'Noto Sans', sans-serif;
-    font-style: bold;
     font-weight: 800;
     font-size: 24px;
     line-height: 126.7%;
@@ -131,16 +130,16 @@ section#services {
     text-transform: uppercase;
 }
 
-.page-services p {
-    font-family: Playfair Display SC !important;
+#services .page-services p.sub-heading {
+    font-family: Playfair Display SC;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px !important;
-    line-height: 126.7% !important;
-    text-align: center !important;
+    font-size: 48px;
+    line-height: 126.7%;
+    text-align: center;
     letter-spacing: 0.04em !important;
     text-transform: uppercase;
-    color: #222223 !important;
+    color: #222223;
 }
 
 
@@ -162,6 +161,18 @@ section#ribbon {
 
 .service-block {
     padding: 80px 0px 40px 0px;
+}
+
+.service-content p {
+    width: 90%;
+    margin: auto;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #222223;
 }
 
 #ribbon .header-button.left-button {
@@ -252,6 +263,7 @@ ul.service-grid li.service-list {
     background-color: #FAFAFA;
 }
 
+
 /* section#testimonials {
     padding: 60px 0;
 } */
@@ -270,17 +282,20 @@ ul.service-grid li.service-list {
     background: #FAFAFA;
 }
 
+
 /* .testimonials-box {
     width: 100%;
     overflow: hidden;
     text-align: center;
 } */
 
+
 /* .testimonials-div {
     max-width: 800px;
     margin: 0 auto;
     height: auto;
 } */
+
 
 /* .bx-wrapper {
     position: relative;
@@ -482,14 +497,32 @@ section#testimonials li {
 }
 
 @media screen and (max-width: 1230px) {
+    #page,
+    .container {
+        max-width: 96%;
+    }
+    /*****HEADER*******/
     .caption-container .company {
-        left: 109px;
+        left: 0px;
     }
     .caption-container .line {
-        left: 137px;
+        left: 17px;
     }
     h2.title a {
-        left: 324px;
+        left: 184px;
+        font-size: 44px
+    }
+    /*****SERVICES*******/
+    ul.service-grid li.service-list {
+        width: 100%;
+        float: none;
+    }
+    section#ribbon {
+        height: initial;
+    }
+    .service-content p {
+        width: 80%;
+        margin: auto;
     }
 }
 
