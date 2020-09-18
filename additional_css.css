@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 .container,
 #page {
-    max-width: 1770px;
+    max-width: 96%;
 }
 
 
@@ -10,6 +10,12 @@
 
 .header #logo {
     padding-top: 30px;
+		max-width: none;
+		width: initial;
+}
+
+.custom-logo {
+	height: auto;
 }
 
 h2.title {
@@ -539,6 +545,43 @@ section#testimonials li {
         margin: auto;
         margin-bottom: 35px;
     }
+	#ribbon .header-button.left-button {
+		margin-bottom: 60px;
+	}
+	
+	/*****TESTIMONIALS*******/
+	
+	section#testimonials {
+		padding-top: 80px;
+		padding-bottom: 60px;
+	}
+
+	section#testimonials li {
+		top: 60px;
+		background-position: top, 	 bottom right;
+	}
+	.image-test {
+		width: 675px;
+		top: 75px;
+	}
+	
+	.test-cont-heading {
+		left: 0;
+		width: 675px;
+		top: 166px;
+	}
+	
+	.test-cont-heading h2 {
+		text-align: center;
+	}
+	
+	.test-cont {
+		width: 325px;
+		left: 176px;
+		top: 205px;
+		text-align: center;
+	}
+	
 }
 
 @media screen and (max-width:1024px) {}
@@ -547,6 +590,35 @@ section#testimonials li {
 
 @media screen and (max-width:860px) {}
 
-@media screen and (max-width:780px) {}
+@media screen and (max-width:780px) {
+	.header #logo {
+		padding-top: 25px;
+		width: initial;
+		max-width: none;
+	}
+	.custom-logo {
+		width: 80%;
+	}
+	
+}
 
-@media screen and (max-width:480px) {}
+@media screen and (max-width:375px) {
+	
+	#page, .container {
+		max-width: 88%;
+	}
+		.header #logo {
+		padding-top: 15px;
+			padding-bottom: 15px;
+		width: initial;
+		max-width: none;
+	}
+	.custom-logo {
+		width: 65%;
+	}
+	
+	.header.col-center.split #main-menu-wrapper, #main-menu-wrapper, .smaller #main-menu-wrapper {
+		padding: 4px 0 ;
+	}
+	
+}
